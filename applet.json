@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "id": "linspectacles-kernel-pressure",
+  "name": "Kernel Pressure",
+  "version": "0.0.7",
+  "author": "brunonlinespace",
+  "editor": "brunonlinespace",
+  "publisher": "brunonlinespace",
+  "organization_id": "linspectacles",
+  "organization_url": "https://github.com/linspectacles/",
+  "repository": "https://github.com/linspectacles/kernel-pressure",
+  "order": 25,
+  "entrypoint": "kernel_pressure/applet.py",
+  "factory": "create_applet",
+  "standalone": "standalone.py",
+  "description": "Read-only Linux Pressure Stall Information (PSI) inspector for CPU, memory, I/O, and optionally IRQ using /proc/pressure.",
+  "platforms": [
+    "linux"
+  ],
+  "read_only": true
+}
